@@ -34,7 +34,7 @@ def won?(board)
        ((position_1 == "O") &&
        (position_2 == "O") &&
        (position_3 == "O"))
-       return helperarray
+       return win_combination
        else
          return false
      end
