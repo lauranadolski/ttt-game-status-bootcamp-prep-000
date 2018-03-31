@@ -18,12 +18,12 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |wc|
-    if ((board[wc[0]] == "X" || "O") && 
-      (board[wc[1]] == "X" || "O") && 
-      (board[wc[2]] == "X" || "O"))
-      # ((board[wc[0]] == "O") && 
-      # (board[wc[1]] == "O") && 
-      # (board[wc[2]] == "O"))
+    if ((board[wc[0]] == "X") && 
+      (board[wc[1]] == "X") && 
+      (board[wc[2]] == "X")) ||
+      ((board[wc[0]] == "O") && 
+      (board[wc[1]] == "O") && 
+      (board[wc[2]] == "O"))
         return wc
     end
   end
