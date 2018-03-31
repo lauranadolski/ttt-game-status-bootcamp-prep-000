@@ -27,7 +27,7 @@ WIN_COMBINATIONS[0].each |wc|
     ((board[wc[0]] == "O") && 
     (board[wc[1]] == "O") && 
     (board[wc[2]] == "O"))
-      return e
+      return wc
   
   
      
