@@ -27,4 +27,5 @@ def won?(board)
         return wc
     end
   end
+  return false
 end
