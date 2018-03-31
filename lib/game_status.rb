@@ -32,10 +32,10 @@ def won?(board)
        position_3 == "X") ||
        (position_1 == "O" &&
        position_2 == "O" &&
-       position_3 == "O")
-        return win_combination
-      else
-        false
+       position_3 == "O") 
+       return win_combination
+       else
+         return false
      end
    end
  end
