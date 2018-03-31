@@ -36,8 +36,7 @@ def won?(board)
        # return win_combination
        return win_combinations
        else
-         # return false
-         return 333
+         return false
      end
    end
  end
