@@ -34,5 +34,5 @@ def full?(board)
   board.all? do |place|
   
   
-  == "X" || == "O"
+  (place== "X") || (place == "O")
 end
