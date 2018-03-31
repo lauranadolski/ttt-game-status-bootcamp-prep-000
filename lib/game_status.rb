@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
   [6, 7, 8], # Bottom row
   [0, 3, 6], # Left column
   [1, 4, 7], # Middle column
-  [], # Right column
+  [2, 5, 8], # Right column
   [], # Forward-slash diagonal
   [], # Backward-slash diagonal
   ]
