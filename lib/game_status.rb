@@ -17,6 +17,7 @@ WIN_COMBINATIONS = [
   ]
 
 def won?(board)
+  
 WIN_COMBINATIONS.each do |win_combinations|
   win_combinations.each do |win_combination|
      counter = 0
@@ -34,7 +35,7 @@ WIN_COMBINATIONS.each do |win_combinations|
        ((position_1 == "O") &&
        (position_2 == "O") &&
        (position_3 == "O"))
-       return win_combinations[counter]
+       return counter
        else
          return false
      end
