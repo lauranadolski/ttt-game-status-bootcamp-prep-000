@@ -18,7 +18,17 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   
+  
 WIN_COMBINATIONS[0].each do |e|
+  
+  if ((board[e[0]] == "X") && 
+    (board[e[1]] == "X") && 
+    (board[e[2]] == "X")) ||
+    ((board[e[0]] == "O") && 
+    (board[e[1]] == "O") && 
+    (board[e[2]] == "O"))
+  
+  
      
      win_index_1 = win_combination[0]
      win_index_2 = win_combination[1]
