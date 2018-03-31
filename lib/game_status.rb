@@ -30,7 +30,7 @@ WIN_COMBINATIONS.each do |win_combinations|
      position_3 = board[win_index_3]
      
      counter += 1
-      counter
+     counter
      
     # if ((position_1 == "X") &&
     #   (position_2 == "X") &&
