@@ -20,7 +20,7 @@ def won?(board)
   
 WIN_COMBINATIONS.each do |win_combinations|
   # win_combinations.each do |win_combination|
-     counter = 0
+     
      win_index_1 = win_combinations[0]
      win_index_2 = win_combinations[1]
      win_index_3 = win_combinations[2]
@@ -29,8 +29,7 @@ WIN_COMBINATIONS.each do |win_combinations|
      position_2 = board[win_index_2]
      position_3 = board[win_index_3]
      
-     counter += 1
-     counter
+
      
     # if ((position_1 == "X") &&
     #   (position_2 == "X") &&
