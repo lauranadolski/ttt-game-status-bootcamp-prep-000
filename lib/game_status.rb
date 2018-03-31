@@ -42,7 +42,7 @@ win_combinations.each do |win_combination|
          return false
      end
    end
- end
+# end
 end
 
 
