@@ -25,6 +25,8 @@ def won?(board)
       (board[wc[1]] == "O") && 
       (board[wc[2]] == "O"))
         return wc
+    else
+      return true
     end
   end
 end
