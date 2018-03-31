@@ -50,9 +50,9 @@ WIN_COMBINATIONS[0].each do |e|
     #   return counter + 6
     #   else
     #     return false
-     # end
-   end
-  end
+  #   # end
+  # end
+  # end
 #end
 
 
