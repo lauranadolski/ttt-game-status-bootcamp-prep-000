@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
   [2, 4, 6], # Backward-slash diagonal
   ]
 
-def won(board)
+def won?(board)
  WIN_COMBINATIONS.each
   win_combination = WIN_COMBINATIONS
   win_index_1 = 
