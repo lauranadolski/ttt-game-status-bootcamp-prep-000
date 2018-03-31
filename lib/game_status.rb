@@ -55,8 +55,8 @@ end
 def winner(board)
   winning = won?(board)
   if board[winning[0]] == "X"
-    puts "X"
+    return "X"
   else
-    puts "O"
+    return "O"
   end
 end
