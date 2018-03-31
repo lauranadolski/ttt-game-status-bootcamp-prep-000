@@ -29,7 +29,7 @@ WIN_COMBINATIONS.each do |win_combinations|
      position_2 = board[win_index_2]
      position_3 = board[win_index_3]
      
-    return true
+    return win_combinations
      
     # if ((position_1 == "X") &&
     #   (position_2 == "X") &&
