@@ -35,7 +35,7 @@ WIN_COMBINATIONS.each do |win_combinations|
        ((position_1 == "O") &&
        (position_2 == "O") &&
        (position_3 == "O"))
-       return counter
+       return counter + 6
        else
          return false
      end
