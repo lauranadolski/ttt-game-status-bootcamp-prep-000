@@ -27,6 +27,7 @@ WIN_COMBINATIONS[0].each do |e|
     ((board[e[0]] == "O") && 
     (board[e[1]] == "O") && 
     (board[e[2]] == "O"))
+      return e
   
   
      
