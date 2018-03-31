@@ -35,3 +35,7 @@ def full?(board)
     (place== "X") || (place == "O")
   end
 end
+
+def draw?(board)
+  
+end
