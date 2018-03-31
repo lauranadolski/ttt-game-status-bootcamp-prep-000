@@ -15,3 +15,5 @@ WIN_COMBINATIONS = [
   [0, 4, 8], # Forward-slash diagonal
   [2, 4, 6], # Backward-slash diagonal
   ]
+
+def won
