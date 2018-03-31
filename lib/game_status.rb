@@ -3,8 +3,6 @@ def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
-# Define your WIN_COMBINATIONS nested array constant
-
 WIN_COMBINATIONS = [
   [0, 1, 2], # Top row
   [3, 4, 5], # Middle row
