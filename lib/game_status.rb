@@ -34,7 +34,7 @@ def won?(board)
        position_2 == "O" &&
        position_3 == "O") 
        return win_combination
-       else
+      else
         false
      end
    end
