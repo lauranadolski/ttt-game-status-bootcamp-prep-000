@@ -41,7 +41,7 @@ WIN_COMBINATIONS.each do |win_combinations|
     #   return counter + 6
     #   else
     #     return false
-     end
+     # end
    end
   end
 end
