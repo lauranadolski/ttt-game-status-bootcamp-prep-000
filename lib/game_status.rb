@@ -32,4 +32,7 @@ end
 
 def full?(board)
   
+  
+  
+  == "X" || == "O"
 end
