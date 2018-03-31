@@ -17,5 +17,8 @@ WIN_COMBINATIONS = [
   ]
 
 def won(board)
+ WIN_COMBINATIONS.each do ||
+  win_index_1
+  
   
 end
