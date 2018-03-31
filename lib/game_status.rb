@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   
   
-WIN_COMBINATIONS[0].each |wc|
+WIN_COMBINATIONS[0].each do |wc|
   
   if ((board[wc[0]] == "X") && 
     (board[wc[1]] == "X") && 
@@ -28,8 +28,8 @@ WIN_COMBINATIONS[0].each |wc|
     (board[wc[1]] == "O") && 
     (board[wc[2]] == "O"))
       return wc
-  
-  
+  end
+end  
      
     # win_index_1 = win_combination[0]
     # win_index_2 = win_combination[1]
